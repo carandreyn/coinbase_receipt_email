@@ -1,0 +1,168 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+}
+.container {
+  background: #333333 !important;
+  background-color: #333333 !important;
+  margin-bottom: 0 !important;
+
+  .logo {
+    background: #0e53fe;
+    background-color: #0e53fe;
+
+    img {
+      width: 150px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .checkmark {
+    img {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 80px;
+    }
+  }
+
+  .header-text-one {
+    h2 {
+      margin: 0;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif, serif;
+      font-size: 20px;
+      font-weight: 300 !important;
+      text-align: center;
+      color: #b3c1d4;
+    }
+  }
+
+  .header-text-two {
+    h3 {
+      font-family: "Open Sans", Helvetica, Arial, sans-serif, serif;
+      font-size: 14px;
+      font-weight: 300 !important;
+      text-align: center;
+      color: #b3c1d4;
+    }
+  }
+  .line {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    width: 80%;
+  }
+
+  .info {
+    
+    width: 80%;
+    margin: 0 auto;
+    .columns {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      .info-content {
+        span {
+          color: #b3c1d4;
+          font-family: "Open Sans", Helvetica, Arial, sans-serif, serif;
+          font-weight: 400 !important;
+          font-size: 13px;
+          letter-spacing: 1px;
+        }
+
+        .r-code {
+          font-weight: 700 !important;
+          color: #6998d4;
+          font-size: 15px;
+          border: 1px solid #d9e1e8;
+          border-radius: 2px;
+          padding: 5px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+
+  .line-two {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .refer {
+    p {
+      text-align: center;
+      color: #b3c1d4;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif, serif;
+      font-weight: 300 !important;
+      font-size: 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 15px;
+    }
+
+     a {
+      color: #ffffff;
+      font-size: 14px;
+      background: #0e53fe;
+      background-color: #0e53fe;
+      padding: 15px 185px;
+      font-weight: 600 !important;
+    }
+  }
+
+  .line-three {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .container-footer {
+    margin: 0 auto;
+    width: 80%;
+
+    p {
+      text-align: center;
+      color: #b3c1d4;
+      font-weight: 300 !important;
+      font-size: 11px !important;
+      line-height: 16px;
+    }
+  }
+}
+
+.footer {
+  background: #0e53fe !important;
+  background-color: #0e53fe !important;
+  margin-top: 30px !important;
+  p {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif, serif;
+    font-size: 14px;
+    font-weight: 300 !important;
+  }
+  img {
+    height: 40px;
+  }
+
+  .footer-info {
+    margin-top: 20px;
+    p  {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+A clone of a Coinbase crypto purchase receipt email.
